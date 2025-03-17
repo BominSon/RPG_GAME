@@ -2,7 +2,6 @@
 
 ![Image](https://github.com/user-attachments/assets/36892e29-5bad-4c5c-9297-ae609bb03804)
 
-![RPG Game Banner]([https://www.canva.com/design/DAGh8zzyQVI/X8f1ATOEUjJUELvGFVq1Og/edit?utm_content=DAGh8zzyQVI&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton])
 
 ## 프로젝트 소개
 
