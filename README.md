@@ -98,9 +98,8 @@ RPG_GAME/
 7. 게임 종료 후 결과를 파일에 저장할 수 있습니다.
 
 ## 게임 스크린샷
-[게임 실행 화면]
-<img width="1238" alt="Image" src="https://github.com/user-attachments/assets/ae40661b-67fa-48f9-99de-7fb0a51504ad" />
 
+<img width="1238" alt="Image" src="https://github.com/user-attachments/assets/ae40661b-67fa-48f9-99de-7fb0a51504ad" />
 
 ## 트러블 슈팅
 
@@ -116,8 +115,7 @@ RPG_GAME/
 - **문제**: 파일 간 import 경로가 맞지 않아 컴파일 오류 발생
 - **해결**: 정확한 파일명으로 import 경로 수정
 
-##개선 가능한 사항
-
+## 개선 가능한 사항
 
 1. 더 다양한 몬스터 타입 추가
 2. 레벨 업 시스템 구현
@@ -125,45 +123,30 @@ RPG_GAME/
 4. 스킬 시스템 추가
 5. 그래픽 인터페이스 구현 (Flutter 등 활용)
 
-사용한 주요 라이브러리 및 함수
-dart:io
+## 사용한 주요 라이브러리 및 함수
 
-File: 파일 읽기/쓰기 작업
+### dart:io
+- `File`: 파일 읽기/쓰기 작업
+  - `readAsStringSync()`: 파일 내용을 동기적으로 읽기
+  - `writeAsStringSync()`: 파일에 내용 동기적으로 쓰기
+- `stdin.readLineSync()`: 사용자 입력 받기
+- `exit()`: 프로그램 종료
 
-readAsStringSync(): 파일 내용을 동기적으로 읽기
-writeAsStringSync(): 파일에 내용 동기적으로 쓰기
+### dart:math
+- `Random()`: 난수 생성기
+  - `nextInt()`: 지정된 범위 내의 정수 난수 생성
+  - `nextDouble()`: 0.0~1.0 사이의 실수 난수 생성
+- `max()`: 두 수 중 큰 값 반환
 
-
-stdin.readLineSync(): 사용자 입력 받기
-exit(): 프로그램 종료
-
-dart:math
-
-Random(): 난수 생성기
-
-nextInt(): 지정된 범위 내의 정수 난수 생성
-nextDouble(): 0.0~1.0 사이의 실수 난수 생성
-
-
-max(): 두 수 중 큰 값 반환
-
-dart:core
-
-RegExp: 정규표현식 처리
-
-hasMatch(): 문자열이 정규표현식과 일치하는지 확인
-
-
-문자열 처리
-
-split(): 문자열을 특정 구분자로 나누기
-trim(): 문자열 앞뒤 공백 제거
-toLowerCase(): 문자열을 소문자로 변환
-
-
-리스트 처리
-
-remove(): 리스트에서 요소 제거
-isEmpty: 리스트가 비어있는지 확인
+### dart:core
+- `RegExp`: 정규표현식 처리
+  - `hasMatch()`: 문자열이 정규표현식과 일치하는지 확인
+- 문자열 처리
+  - `split()`: 문자열을 특정 구분자로 나누기
+  - `trim()`: 문자열 앞뒤 공백 제거
+  - `toLowerCase()`: 문자열을 소문자로 변환
+- 리스트 처리
+  - `remove()`: 리스트에서 요소 제거
+  - `isEmpty`: 리스트가 비어있는지 확인
 
 
