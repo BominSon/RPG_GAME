@@ -1,6 +1,6 @@
 # RPG 전투 게임
 
-![RPG Game Banner](https://prod-files-secure.s3.us-west-2.amazonaws.com/83c75a39-3aba-4ba4-a792-7aefe4b07895/45256081-5b23-485d-8d57-d59d9deef8e0/image.png)
+![RPG Game Banner]([https://www.canva.com/design/DAGh8zzyQVI/X8f1ATOEUjJUELvGFVq1Og/edit?utm_content=DAGh8zzyQVI&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton])
 
 ## 프로젝트 소개
 
