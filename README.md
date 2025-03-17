@@ -97,7 +97,7 @@ RPG_GAME/
 ## 게임 스크린샷
 [게임 실행 화면]
 <img width="1238" alt="Image" src="https://github.com/user-attachments/assets/ae40661b-67fa-48f9-99de-7fb0a51504ad" />
-![게임 실행 화면](https://prod-files-secure.s3.us-west-2.amazonaws.com/83c75a39-3aba-4ba4-a792-7aefe4b07895/b6990266-03a6-406c-9bd4-e45f7191a914/image.png)
+
 
 ## 트러블 슈팅
 
