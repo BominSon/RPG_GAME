@@ -43,25 +43,5 @@ RPG_GAME/
 #### 주요 메서드
 - `loadCharacterStats()`: 파일에서 캐릭터 데이터를 읽어옵니다.
 - `loadMonsterStats()`: 파일에서 몬스터 데이터를 읽어옵니다.
-- `getCharacterName()`: 사용자로부터 유효한 캐릭터 이름을 입력받습니다.
-- `getRandomMonster()`: 랜덤으로 몬스터를 선택합니다.
-- `battle(Monster monster)`: 몬스터와의 전투를 진행합니다.
-- `startGame()`: 게임을 시작하고 전체 흐름을 관리합니다.
-- `saveGameResult()`: 게임 결과를 파일에 저장합니다.
-
-### Character 클래스
-- 플레이어 캐릭터를 정의합니다.
-- 이름, 체력, 공격력, 방어력 속성을 가집니다.
-- 공격, 방어, 아이템 사용 등의 행동을 수행합니다.
-
-#### 주요 메서드
-- `attackMonster(Monster monster)`: 몬스터에게 공격을 가합니다.
-- `defend()`: 방어 자세를 취합니다.
-- `showStatus()`: 캐릭터의 현재 상태를 출력합니다.
-- `useItem()`: 특수 아이템을 사용하여 공격력을 증가시킵니다.
-
-### Monster 클래스
-- 몬스터를 정의합니다.
-- 이름,손보민
-
+- `getCharacterName()`: 사용자로민
 RPG Game 프로젝트 - Dart 심화 개인 과제
